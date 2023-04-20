@@ -37,10 +37,10 @@ li a{
     padding: 20px;
     text-decoration: none;
 }
-li a:hover:not(#about) {
+li a:hover:not(#li1) {
     background-color: burlywood;
 }
-#about{
+#li1{
     background-color: black;
 }
 form {
