@@ -1,0 +1,88 @@
+body{
+    background-image: url(fotofoto.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+#h1 {
+    color: aqua;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: transparent;
+}
+
+li {
+    float: left;
+    border-right: 4px solid burlywood;
+}
+#li1 {float: right;}
+.l1:last-child {
+    border-right: none;
+    
+}
+
+li a{
+    display: block;
+    color: whitesmoke;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover:not(#about) {
+    background-color: burlywood;
+}
+#about{
+    background-color: black;
+}
+form {
+    float: right;
+    display: inline-block;
+    padding: 5px 10px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 4px;
+}
+div.galeria {
+    border: 1.5px solid plum;
+}
+div.galeria:hover {
+    border: 1px solid pink;
+}
+
+
+
+
+
+
+
+
+
+#p1{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: 20px;
+    }
+
+.klasa1{
+    color: blue;
+    font-size: large;
+}
+
+
+.klasadiv1{
+    text-align: center;
+    font-weight: 500px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-style: initial;
+}
